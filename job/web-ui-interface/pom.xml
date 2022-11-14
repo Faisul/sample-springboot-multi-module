@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.hr</groupId>
+    <artifactId>job</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.hr.ui</groupId>
+  <artifactId>web-ui-interface</artifactId>
+  <name>web ui interface</name>
+  <description>has all the ui interface components</description>
+  
+  <dependencies>
+   	<dependency>
+  		<groupId>com.hr</groupId>
+  		<artifactId>user</artifactId>
+  		<version>${project.version}</version>
+  	</dependency> 
+  </dependencies>
+</project>
